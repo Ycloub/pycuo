@@ -19,3 +19,4 @@ def new_function(opt1,opt2,Queue):
 in the main function add :
 Threads = lib.thread.Load_Thread(thread_count,function_name,parameter1,parameter2,parameter3,...,Queue)
 lib.thread.Start_Thread(Threads,'function_name')
+
