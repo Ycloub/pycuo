@@ -34,7 +34,6 @@ def main():
         Threads = lib.thread.Load_Thread(options.thread,Scan_DNS,Queue,Domain_Result)
         lib.thread.Start_Thread(Threads,'Scan_DNS')
         for result in Domain_Result:
-            print(result)
             domain_content.add_row([result['Domain'],result['HOST'],result['TITLE'],result['SERVER'],result['ADDRESS']])
             pass
         print(domain_content)
