@@ -4,5 +4,4 @@ def url_get(url,**kwargs):
         req = requests.get(url,kwargs)
     except:
         return None
-    #print(req.encoding)
     return req

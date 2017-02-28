@@ -6,7 +6,7 @@ def Load_Thread(thread_count,method,*args):
     print('[*]Threading Loader Success ...')
     return Thread_List
 def Start_Thread(Thread_List,Explain=''):
-    print('[*]'+Explain+' All threads execute start...')
+    print('\n[*]'+Explain+' All threads execute start...')
     for thread in Thread_List:
             thread.setDaemon(True)
             thread.start()
